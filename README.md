@@ -1,4 +1,22 @@
-### oop-mentorship
+### OOP-Mentorship
+
+
+You don't need to clone/fork this project
+
+Create one repository on github and create your own project
+
+Use the best practices and evaluate what you will be using.
+
+- Classes
+- Abstraction
+- Encapsulation
+- Public, Private, Protected
+- Polymorphism
+- Inheritance
+- Modules
+- Setter and Getter Methods
+- Super
+- Self
 
 ## Chalenge 
 
@@ -93,3 +111,39 @@ Add V.I.P customers.
 ADD a method to add VIP to a customer (during the customer creation you can generate an ID ;) so you can use it later to add the VIP)
 VIP customers should have an extra property that tells us if a customer is VIP or not.
 
+
+### Second part
+
+Now that we have an way to work with customers we would like to add products to our store. 
+
+- The store will provide products and services, where products are: 
+
+Products:
+- sandwich
+- beverages (be sure to check if the customer is 18+) if not return a message saying that isn't allowd to buy.
+- Snacks
+
+Services:
+- Card top-up
+
+Be sure to save values in a format that could be easy manipulated e.g value: 14.90
+
+
+## Creating command line tool 
+
+This is just an small example, as part of the challenge you need to search for it.
+
+TIP: Chomp method in ruby
+
+
+```
+
+require "readline"
+addends = []
+while addend_string = Readline.readline("> ", true)
+  addends << addend_string.to_i
+  puts "#{addends.join(' + ')} = #{addends.sum}"
+end
+```
+
+any questions you can contact me on twitter: https://twitter.com/wellavelino
