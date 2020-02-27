@@ -9,17 +9,20 @@ class Store
   #Customer 1
   customer1 = Customer.new("Wellington", 27, "vip")
   customerManager = CustomerManager.new
-  well =  customerManager.register(customer1)
-
-
-  xablau = customerManager.registered_customers
-
-
+  customerManager.register(customer1)
 
   customer2 = Customer.new("Naiana", 30, "normal")
   customerManager.register(customer2)
 
-  binding.pry
+
+  customer3 = Customer.new("Luke", 30, "normal")
+  customerManager.register(customer3)
+
+  customer4 = Customer.new("Leia", 30, "normal")
+  customerManager.register(customer4)
+
+
+  customerManager.registered_customers
 end
 
 

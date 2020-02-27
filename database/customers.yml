@@ -3,11 +3,23 @@
   name: Wellington
   age: 27
   type: vip
-  id: 87ed4f67c1ba2a5cd029d893e28afcaa
+  id: 6ed57e48d2eee4fc873f7ea0de57c93c
   loyalty_points: 0
 - !ruby/object:Customer
   name: Naiana
   age: 30
   type: normal
-  id: 73a5fcfd7877a429b8a84eeefddaa1e5
+  id: 0b854d898c7dd6c11b7cc475f9b33471
+  loyalty_points: 0
+- !ruby/object:Customer
+  name: Luke
+  age: 30
+  type: normal
+  id: 4a7f520da0045f5ad130f8b0a8f3946a
+  loyalty_points: 0
+- !ruby/object:Customer
+  name: Leia
+  age: 30
+  type: normal
+  id: 5f207eb51036308169a0cd06936021a8
   loyalty_points: 0

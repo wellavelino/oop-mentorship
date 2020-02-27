@@ -13,19 +13,13 @@ class CustomerManager
     save_yml_file
   end
 
-  # fix it doesnt work 
   def search_by_id(customer_id)
     @customers = load
     result = []
     @customers.each do |customer|
-      binding.pry
 
       next unless customer.id == customer_id
-      result << [customer.name,
-                 customer.age,
-                 customer.type,
-                 customer.loyalty_points,
-                 customer.id]
+      result << customer
     end
     result
   end

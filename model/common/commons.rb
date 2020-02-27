@@ -1,7 +1,7 @@
 require 'securerandom'
 
 module Common
-  def id
+  def generate_id
     SecureRandom.hex
   end
 
